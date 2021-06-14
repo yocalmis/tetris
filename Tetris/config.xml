@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.Tetris" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Tetris</name>
+    <description>
+       Tetris
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Tetris
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon density="ldpi" height="57" platform="android" src="res/icon/android/doviz.png" width="57" />
+        <icon density="mdpi" height="57" platform="android" src="res/icon/android/doviz.png" width="57" />
+        <icon density="hdpi" height="57" platform="android" src="res/icon/android/doviz.png" width="57" />
+        <icon density="xhdpi" height="57" platform="android" src="res/icon/android/doviz.png" width="57" />
+        <icon density="xxhdpi" height="57" platform="android" src="res/icon/android/doviz.png" width="57" />
+        <icon density="xxxhdpi" height="57" platform="android" src="res/icon/android/doviz.png" width="57" />
+        <splash density="land-hdpi" src="res/screen/android/doviz.png" />
+        <splash density="land-ldpi" src="res/screen/android/doviz.png" />
+        <splash density="land-mdpi" src="res/screen/android/doviz.png" />
+        <splash density="land-xhdpi" src="res/screen/android/doviz.png" />
+        <splash density="port-hdpi" src="res/screen/android/doviz.png" />
+        <splash density="port-ldpi" src="res/screen/android/doviz.png" />
+        <splash density="port-mdpi" src="res/screen/android/doviz.png" />
+        <splash density="port-xhdpi" src="res/screen/android/doviz.png" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <plugin name="cordova-admob" spec="^4.2.1" />
+    <plugin name="cordova-plugin-network-information" spec="^2.0.1" />
+    <engine name="browser" spec="^5.0.4" />
+    <engine name="android" spec="^7.1.4" />
+</widget>

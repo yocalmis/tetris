@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Tetris",
+  "short_name": "Tetris",
+  "version": "io.Tetris",
+  "description": "Tetris",
+  "author": "Tetris",
+  "icons": [],
+  "start_url": "index.html"
+}

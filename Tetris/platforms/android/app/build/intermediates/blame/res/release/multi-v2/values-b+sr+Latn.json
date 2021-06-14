@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Administrator\\Desktop\\Football_Sim_son_11.12.18_gece_2\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\bac67a802914f45b0efb60aac80ed52f\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "918",
+                        "endColumns": "100",
+                        "endOffsets": "1014"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\681afc3761a91c04ff544699af6dbd94\\res\\values-b+sr+Latn\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "254",
+                        "endColumns": "188",
+                        "endOffsets": "442"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "188",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-15.0.0.aar\\3af6525f74e7c6790fe545bd92b91242\\res\\values-b+sr+Latn\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "204,274,394,460,523,612,730",
+                        "endColumns": "69,119,65,62,88,117,69",
+                        "endOffsets": "273,393,459,522,611,729,799"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "294,368,492,562,629,722,844",
+                        "endColumns": "73,123,69,66,92,121,73",
+                        "endOffsets": "363,487,557,624,717,839,913"
+                    }
+                }
+            ]
+        }
+    ]
+}

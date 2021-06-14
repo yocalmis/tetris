@@ -1,0 +1,212 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.android.gms:play-services-ads:15.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-ads-15.0.0.aar\3af6525f74e7c6790fe545bd92b91242\AndroidManifest.xml:17:1-25:12
+MERGED from [:CordovaLib] C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\CordovaLib\build\intermediates\manifests\full\release\AndroidManifest.xml:20:1-27:12
+MERGED from [com.android.support:customtabs:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\customtabs-26.1.0.aar\9f2a58a12f04d78707f15e75ef08c5bc\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.0.aar\06d3bf5b056bc4f84e1e6b2c82cf4419\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-gass:15.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-gass-15.0.0.aar\34ca35c93c7a20baa16e18cd7b73c4a7\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-15.0.0.aar\022bb510b1fdeb97b9566690f7dd909c\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\7d063d0f3b315dc17c01541e3fa17892\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\681afc3761a91c04ff544699af6dbd94\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\1edf83349338eb03fd559d5efec39917\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\60ad0a935bb120784d9911f80f2246d0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\8ea98a295e6b49ca03cf5edd49e1ccf4\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\afd8f8557e9ee4863636304995ebef2e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\ec08f19806a89b0e03f9350c40e4f365\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\bac67a802914f45b0efb60aac80ed52f\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\ab9c9c246898c75e7e8bb3fa3d4aadf2\AndroidManifest.xml:17:1-30:12
+INJECTED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:2:1-16:12
+	package
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:2:103-134
+		INJECTED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:2:74-102
+		INJECTED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:2:11-45
+	xmlns:android
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:2:135-193
+	android:versionCode
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:2:46-73
+		INJECTED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml
+supports-screens
+ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:3:5-191
+	android:largeScreens
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:3:49-76
+	android:smallScreens
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:3:132-159
+	android:normalScreens
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:3:77-105
+	android:xlargeScreens
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:3:160-188
+	android:resizeable
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:3:106-131
+	android:anyDensity
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:3:23-48
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.0.aar\06d3bf5b056bc4f84e1e6b2c82cf4419\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.0.aar\06d3bf5b056bc4f84e1e6b2c82cf4419\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:4:22-64
+application
+ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:5:5-13:19
+MERGED from [com.android.support:customtabs:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\customtabs-26.1.0.aar\9f2a58a12f04d78707f15e75ef08c5bc\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:customtabs:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\customtabs-26.1.0.aar\9f2a58a12f04d78707f15e75ef08c5bc\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.0.aar\06d3bf5b056bc4f84e1e6b2c82cf4419\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.0.aar\06d3bf5b056bc4f84e1e6b2c82cf4419\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-gass:15.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-gass-15.0.0.aar\34ca35c93c7a20baa16e18cd7b73c4a7\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:15.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-gass-15.0.0.aar\34ca35c93c7a20baa16e18cd7b73c4a7\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-15.0.0.aar\022bb510b1fdeb97b9566690f7dd909c\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-15.0.0.aar\022bb510b1fdeb97b9566690f7dd909c\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\7d063d0f3b315dc17c01541e3fa17892\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\7d063d0f3b315dc17c01541e3fa17892\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\681afc3761a91c04ff544699af6dbd94\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\681afc3761a91c04ff544699af6dbd94\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\1edf83349338eb03fd559d5efec39917\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\1edf83349338eb03fd559d5efec39917\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\60ad0a935bb120784d9911f80f2246d0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\60ad0a935bb120784d9911f80f2246d0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\8ea98a295e6b49ca03cf5edd49e1ccf4\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\8ea98a295e6b49ca03cf5edd49e1ccf4\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\afd8f8557e9ee4863636304995ebef2e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\afd8f8557e9ee4863636304995ebef2e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\ec08f19806a89b0e03f9350c40e4f365\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\ec08f19806a89b0e03f9350c40e4f365\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\bac67a802914f45b0efb60aac80ed52f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\bac67a802914f45b0efb60aac80ed52f\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\ab9c9c246898c75e7e8bb3fa3d4aadf2\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\ab9c9c246898c75e7e8bb3fa3d4aadf2\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:5:114-140
+	android:label
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:5:81-113
+	android:hardwareAccelerated
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:5:18-52
+	android:icon
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:5:53-80
+activity#io.Football_Simulator.MainActivity
+ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:6:9-11:20
+	android:label
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:6:97-134
+	android:launchMode
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:6:135-165
+	android:windowSoftInputMode
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:6:257-299
+	android:configChanges
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:6:19-96
+	android:theme
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:6:194-256
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:6:166-193
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:7:13-10:29
+	android:label
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:7:28-65
+action#android.intent.action.MAIN
+ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:8:17-69
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:8:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:9:17-77
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:9:27-74
+activity#com.google.android.gms.ads.AdActivity
+ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:12:9-233
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.0.aar\06d3bf5b056bc4f84e1e6b2c82cf4419\AndroidManifest.xml:29:9-33:64
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.0.aar\06d3bf5b056bc4f84e1e6b2c82cf4419\AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.0.aar\06d3bf5b056bc4f84e1e6b2c82cf4419\AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:12:19-128
+	android:theme
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:12:182-230
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:12:129-181
+uses-sdk
+ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:14:5-74
+INJECTED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:14:5-74
+MERGED from [com.google.android.gms:play-services-ads:15.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-ads-15.0.0.aar\3af6525f74e7c6790fe545bd92b91242\AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads:15.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-ads-15.0.0.aar\3af6525f74e7c6790fe545bd92b91242\AndroidManifest.xml:21:5-23:62
+MERGED from [:CordovaLib] C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\CordovaLib\build\intermediates\manifests\full\release\AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\CordovaLib\build\intermediates\manifests\full\release\AndroidManifest.xml:25:5-44
+MERGED from [com.android.support:customtabs:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\customtabs-26.1.0.aar\9f2a58a12f04d78707f15e75ef08c5bc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\customtabs-26.1.0.aar\9f2a58a12f04d78707f15e75ef08c5bc\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.0.aar\06d3bf5b056bc4f84e1e6b2c82cf4419\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.0.aar\06d3bf5b056bc4f84e1e6b2c82cf4419\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:15.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-gass-15.0.0.aar\34ca35c93c7a20baa16e18cd7b73c4a7\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:15.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-gass-15.0.0.aar\34ca35c93c7a20baa16e18cd7b73c4a7\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-15.0.0.aar\022bb510b1fdeb97b9566690f7dd909c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-15.0.0.aar\022bb510b1fdeb97b9566690f7dd909c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\7d063d0f3b315dc17c01541e3fa17892\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\7d063d0f3b315dc17c01541e3fa17892\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\681afc3761a91c04ff544699af6dbd94\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\681afc3761a91c04ff544699af6dbd94\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\1edf83349338eb03fd559d5efec39917\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\1edf83349338eb03fd559d5efec39917\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\60ad0a935bb120784d9911f80f2246d0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\60ad0a935bb120784d9911f80f2246d0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\8ea98a295e6b49ca03cf5edd49e1ccf4\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\8ea98a295e6b49ca03cf5edd49e1ccf4\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\afd8f8557e9ee4863636304995ebef2e\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\afd8f8557e9ee4863636304995ebef2e\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\ec08f19806a89b0e03f9350c40e4f365\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\ec08f19806a89b0e03f9350c40e4f365\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\bac67a802914f45b0efb60aac80ed52f\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\bac67a802914f45b0efb60aac80ed52f\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\ab9c9c246898c75e7e8bb3fa3d4aadf2\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\ab9c9c246898c75e7e8bb3fa3d4aadf2\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:14:5-74
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:15.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-ads-15.0.0.aar\3af6525f74e7c6790fe545bd92b91242\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:14:42-71
+	android:minSdkVersion
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:14:15-41
+		INJECTED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:15:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.0.aar\06d3bf5b056bc4f84e1e6b2c82cf4419\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.0.aar\06d3bf5b056bc4f84e1e6b2c82cf4419\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\Football_Sim_son_11.12.18_gece_2\platforms\android\app\src\main\AndroidManifest.xml:15:22-76
+meta-data#android.support.VERSION
+ADDED from [com.android.support:customtabs:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\customtabs-26.1.0.aar\9f2a58a12f04d78707f15e75ef08c5bc\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\1edf83349338eb03fd559d5efec39917\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\1edf83349338eb03fd559d5efec39917\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\60ad0a935bb120784d9911f80f2246d0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\60ad0a935bb120784d9911f80f2246d0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\8ea98a295e6b49ca03cf5edd49e1ccf4\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\8ea98a295e6b49ca03cf5edd49e1ccf4\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\afd8f8557e9ee4863636304995ebef2e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\afd8f8557e9ee4863636304995ebef2e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\ec08f19806a89b0e03f9350c40e4f365\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\ec08f19806a89b0e03f9350c40e4f365\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\bac67a802914f45b0efb60aac80ed52f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\bac67a802914f45b0efb60aac80ed52f\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:customtabs:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\customtabs-26.1.0.aar\9f2a58a12f04d78707f15e75ef08c5bc\AndroidManifest.xml:25:13-35
+	android:name
+		ADDED from [com.android.support:customtabs:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\customtabs-26.1.0.aar\9f2a58a12f04d78707f15e75ef08c5bc\AndroidManifest.xml:24:13-51
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\681afc3761a91c04ff544699af6dbd94\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\681afc3761a91c04ff544699af6dbd94\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\681afc3761a91c04ff544699af6dbd94\AndroidManifest.xml:24:13-58
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\ab9c9c246898c75e7e8bb3fa3d4aadf2\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\ab9c9c246898c75e7e8bb3fa3d4aadf2\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\ab9c9c246898c75e7e8bb3fa3d4aadf2\AndroidManifest.xml:26:13-58

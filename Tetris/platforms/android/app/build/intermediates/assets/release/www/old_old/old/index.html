@@ -1,0 +1,415 @@
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<style>
+label {font-size:22px;}
+#check {font-size:19px;}
+option {font-size:22px;}
+select {max-width:300px;}
+body {background-color:#deeeed;}
+
+</style>
+
+<script>
+
+function hesapla (){
+
+	
+var dt = $('#dt').val();	
+var cins = $('#cins').val();	
+var sehir = $('#sehir').val();	
+var gelir = $('#gelir').val();	
+var tip = $('#tip').val();	
+var work = $('#work').val();	
+var work_day = $('#work_day').val();	
+var work_tot = $('#work_tot').val();	
+var kalp = $('#kalp').val();	
+var sek = $('#sek').val();	
+var kan = $('#kan').val();	
+var farkli = $('#farkli').val();	
+var aile = $('#aile').val();	
+var stres = $('#stres').val();	
+var sosyal = $('#sosyal').val();	
+var spor = $('#spor').val();	
+var bes = $('#bes').val();
+var sig_yil = $('#sig_yil').val();
+var alk = $('#alk').val();
+var evli = $('#evli').val();	
+var cocuk = $('#cocuk').val();	
+
+
+var sayi=0;
+sayi = parseInt(sayi);
+
+if(cins=="Erkek"){sayi=sayi-3;}else{sayi=sayi+3;}
+
+if(sehir==1){sayi=sayi-4;}
+else if(sehir==2){sayi=sayi-2;}
+else if(sehir==3){sayi=sayi+3;}
+else {sayi=sayi+6;}
+
+if(gelir==1){sayi=sayi-4;}
+else if(gelir==2){sayi=sayi-2;}
+else if(gelir==3){}
+else if(gelir==4){sayi=sayi+4;}
+else {sayi=sayi+8;}
+
+
+if(tip==1){sayi=sayi-6;}
+else if(tip==2){sayi=sayi-3;}
+else if(tip==3){sayi=sayi+2;}
+else if(tip==4){sayi=sayi+2;}
+else if(tip==5){sayi=sayi+1;}
+else {sayi=sayi-4;}
+
+if(work==1){sayi=sayi-6;}
+else if(work==2){sayi=sayi-3;}
+else if(work==3){sayi=sayi+3;}
+else if(work==4){sayi=sayi+3;}
+else if(work==5){sayi=sayi-4;}
+else {sayi=sayi+6;}
+
+if(work_day==1){sayi=sayi+2;}
+else if(work_day==2){}
+else if(work_day==3){sayi=sayi-2;}
+else {sayi=sayi-4;}
+
+if(work_tot==1){sayi=sayi+4;}
+else if(work_tot==2){sayi=sayi+1;}
+else if(work_tot==3){sayi=sayi-1;}
+else {sayi=sayi-4;}
+
+if(kalp==1){sayi=sayi-2;}else{sayi=sayi+2;}
+if(sek==1){sayi=sayi-2;}else{sayi=sayi+2;}
+if(kan==1){sayi=sayi-2;}else{sayi=sayi+2;}
+if(farkli==1){sayi=sayi-2;}else{sayi=sayi+2;}
+
+if(aile==1){sayi=sayi-4;}
+else if(aile==2){sayi=sayi-2;}
+else if(aile==3){}
+else if(aile==4){sayi=sayi+2;}
+else {sayi=sayi+4;}
+
+if(stres=="Evet"){sayi=sayi-3;}
+else if(stres=="Kısmen"){}
+else {sayi=sayi+3;}
+
+if(spor==1){}
+else if(spor==2){sayi=sayi+4;}
+else {sayi=sayi-4;}
+
+
+
+if(sosyal=="Evet"){sayi=sayi+3;}
+else if(sosyal=="Kısmen"){}
+else {sayi=sayi-3;}
+
+
+if(bes==1){sayi=sayi+4;}
+else if(bes==2){}
+else {sayi=sayi-4;}
+
+
+if(sig_yil==1){sayi=sayi+7;}
+else if(sig_yil==2){sayi=sayi-1;}
+else if(sig_yil==3){sayi=sayi-2;}
+else if(sig_yil==4){sayi=sayi-5;}
+else {sayi=sayi-7;}
+
+
+if(alk==1){sayi=sayi+7;}
+else if(alk==2){sayi=sayi-1;}
+else if(alk==3){sayi=sayi-4;}
+else {sayi=sayi-7;}
+
+
+if(evli=="Evet"){sayi=sayi+3;}else{sayi=sayi-3;}
+
+if(cocuk==1){sayi=sayi+3;}
+else if(cocuk==2){sayi=sayi-2;}
+else {sayi=sayi-6;}
+
+
+var baslangic = 80;
+baslangic = parseInt(baslangic);
+sayi = sayi / 2;
+yas = baslangic + sayi;
+
+
+
+alert(yas);
+
+}
+
+</script>
+
+  </head>
+  <body>
+  
+  <!--Algoritma
+  
+
+  
+  --Erkek -3 Kadın +3 yıl
+  --Gelir 1 -4, 2 -2, 3 0 , 4 +4, 5 +8
+  --Yer 1 -4, 2 -2, 3 +3 , 4 +6
+  --Tip 1 -6, 2 -3, 3 2 , 4 2, 5 +1, 6 -4
+  --Çalışma -6,-3,3,3,-4,6
+  --Çalışma saat 2,0,-2,-4
+  --Çalışma yıl 4,1,-1,-4 
+  --Genetik yoksa 6,-2,-2,-2 ,-2
+  --Stres -3,0,+3
+  --Sosyal 3,0,-3
+  --Spor 0,4,-4
+  --Beslenme 4,0,-4  
+  --Sigara 7,-1,-2,-5,-7   
+  --Alkol 7,-1,-4,-7  
+  --Evli 3,-3   
+  --Çocuk 3,-2,-6
+   --Aile -4,-2,0,2,4
+   
+     Başlangıç 80 yıl
+   + ise /2 , - ise /2
+  -->
+  
+  
+  
+ 	<!----><br><br><center><b><font size="32">YAŞ HESAPLA</font></b></center><br><br>   
+
+	<center>
+	<form  onsubmit="return false;">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Doğum Tarihiniz</label>
+    <input type="date" name="dt" class="form-control" id="dt" style="max-width:300px" aria-describedby="emailHelp" placeholder="Doğum tarihi">
+  </div>
+
+         <div class="form-group">
+    <label for="exampleSelect1">Cinsiyet </label>
+    <select  name="cins" id="cins" required="required" class="form-control">
+      <option>Erkek</option>	
+      <option>Kadın</option>
+
+    </select>
+  </div>
+  
+       <div class="form-group">
+    <label for="exampleSelect1">Yıllık Geliriniz ($)</label>
+    <select  name="gelir" id="gelir" required="required" class="form-control">
+      <option value="1">1000 $</option>	
+      <option value="2">1000 - 5000 $</option>
+      <option value="3">5000 - 10000 $</option>
+      <option value="4">10000 - 30000 $</option>
+      <option value="5">30000 $ +</option>	  
+    </select>
+  </div>
+
+  
+     <div class="form-group">
+    <label for="exampleSelect1">Yaşadığınız Yer</label>
+    <select   name="sehir" id="sehir" class="form-control"  required="required">
+      <option value="1">Metropol</option>	
+      <option value="2">Şehir</option>
+      <option value="3">Yarı Şehir</option>
+      <option value="4">Köy</option>
+    </select>
+  </div>  
+  
+       <div class="form-group">
+    <label for="exampleSelect1">Vücut tipiniz</label>
+    <select   name="tip" id="tip" class="form-control"  required="required">
+      <option  value="1">Aşırı kilolu</option>	
+      <option  value="2">Kilo Fazlam Var</option>
+      <option  value="3">Normal yada kilolu ama Kas oranı yüksek</option>
+      <option  value="4">Normal</option>
+      <option  value="5">Zayıf</option>
+      <option  value="6">Aşırı Zayıf</option>	  
+  
+
+    </select>
+  </div>  
+  
+  <div class="form-group">
+    <label for="exampleSelect1">Çalışma Durumunuz</label>
+    <select   name="work" id="work"  class="form-control"  required="required" >
+	
+      <option value="1">Ağır Şartlar Kirli Hava</option>
+      <option  value="2">Ağır Şartlar Ayakta</option>
+      <option  value="3">Ayakta Hareketli</option>
+      <option  value="4">Ayakta durağan</option>
+      <option  value="5">Oturarak</option>
+      <option  value="6">Çalışmıyorum</option>	
+   </select>
+  </div>
+  
+  
+    <div class="form-group">
+    <label for="exampleSelect1"> Bu şekilde günlük çalışma Süreniz </label>
+    <select   name="work_day" id="work_day"  class="form-control"  required="required">
+      <option  value="1">1-5 saat</option>
+      <option value="2">6-8 saat</option>
+      <option value="3">9-15 saat</option>
+      <option value="4">15+ saat</option>
+   </select>
+  </div>
+  
+    <div class="form-group">
+    <label for="exampleSelect1"> Bu şekilde toplam çalışma Süreniz</label>
+    <select  name="work_tot" id="work_tot" class="form-control"  required="required">
+      <option  value="1">1-5 Yıl</option>
+      <option  value="2">5-10 Yıl</option>
+      <option  value="3">10-20 Yıl</option>
+      <option  value="4">20+ Yıl</option>
+   </select>
+  </div>
+  
+  
+  
+      <div class="form-group">
+    <label for="exampleSelect1"> Aile büyüklerinizde kalp rahatsızlığı var mı ?</label>
+    <select  name="kalp" id="kalp" class="form-control"  required="required">
+      <option  value="1">Var</option>
+      <option  value="2">Yok</option>
+   </select>
+  </div>
+  
+        <div class="form-group">
+    <label for="exampleSelect1"> Aile büyüklerinizde Diyabet rahatsızlığı var mı ?</label>
+    <select  name="seker" id="seker" class="form-control"  required="required">
+      <option  value="1">Var</option>
+      <option  value="2">Yok</option>
+   </select>
+  </div>
+  
+          <div class="form-group">
+    <label for="exampleSelect1"> Aile büyüklerinizde Kanser rahatsızlığı var mı ?</label>
+    <select  name="kanser" id="kanser" class="form-control"  required="required">
+      <option  value="1">Var</option>
+      <option  value="2">Yok</option>
+   </select>
+  </div>
+  
+        <div class="form-group">
+    <label for="exampleSelect1"> Aile büyüklerinizde Farklı kalıtımsal rahatsızlıklar var mı ?</label>
+    <select  name="farkli" id="farkli" class="form-control"  required="required">
+      <option  value="1">Var</option>
+      <option  value="2">Yok</option>
+   </select>
+  </div>
+
+  
+        <div class="form-group">
+    <label for="exampleSelect1"> Aile büyüklerinin ortalama ömrü ? </label>
+    <select  name="aile" id="aile"  class="form-control"  required="required">
+      <option>60'tan az</option>
+      <option>60 70 yıl arası</option>	  
+      <option>70 80 yıl arası</option>
+      <option>80 90 yıl arası</option>	
+      <option>90 yıldan uzun</option>		  
+   </select>
+  </div>
+  
+  
+      <div class="form-group">
+    <label for="exampleSelect1"> Stresli birimisiniz ? </label>
+    <select  name="stres" id="stres"  class="form-control"  required="required">
+      <option>Evet</option>
+      <option>Kısmen</option>	  
+      <option>Hayır</option>
+   </select>
+  </div>
+  
+  
+        <div class="form-group">
+    <label for="exampleSelect1"> Sosyal Aktivitelere vakit ayirabiliyor musunuz ? </label>
+    <select  name="sosyal" id="sosyal"   class="form-control"  required="required">
+      <option>Evet</option>
+      <option>Kısmen</option>	  
+      <option>Hayır</option>
+   </select>
+  </div>
+  
+  
+  
+  
+            <div class="form-group">
+    <label for="exampleSelect1"> Spor Aktivitelerine vakit ayirabiliyor musunuz ? </label>
+    <select  name="spor" id="spor"  class="form-control"   required="required">
+      <option value="1">Yoğun Spor yapıyorum </option>
+      <option value="2">Orta ölçekli spor yapıyorum </option>	  
+      <option value="3">Spor Yapmıyorum</option>
+   </select>
+  </div>
+  
+  
+             <div class="form-group">
+    <label for="exampleSelect1"> Beslenme Alışkanlıklarınız </label>
+    <select  name="bes" id="bes"  class="form-control"  required="required">
+      <option value="1">Sebze ve Baklagil ağırlıklı kontrollü</option>
+      <option value="2">Kırmızı Et ağırlıklı kısmen kontrollü</option>	  
+      <option value="3">Ne bulsam yiyorum</option>
+   </select>
+  </div>
+  
+
+  
+                 <div class="form-group">
+    <label for="exampleSelect1"> Sigarayı Alışkanlığınız</label>
+    <select  name="sig_yil" id="sig_yil"  class="form-control"  required="required">
+      <option value="1">Hiç kullanmadım</option>	
+      <option value="2">Çok Az</option>
+      <option value="3">1-5 Yıl</option>	  
+      <option value="4">5-15 Yıl</option>
+      <option value="5">15 + Yıl</option>	  
+   </select>
+  </div>
+  
+              <div class="form-group">
+    <label for="exampleSelect1"> Alkol Alışkanlığınız </label>
+    <select  name="alk" id="alk" class="form-control"  required="required">
+      <option value="1">Hiç kullanmadım</option>
+      <option value="2">AZ Kullandım</option>
+      <option value="3">Kullanıyorum</option>	  
+      <option value="4">Alkoliğim</option>	
+	  
+   </select>
+  </div>
+ 
+  
+                   <div class="form-group">
+    <label for="exampleSelect1"> Evli misiniz ?</label>
+    <select  name="evli" id="evli" class="form-control"  required="required">
+      <option>Evet</option>
+      <option>Hayır</option>	    
+   </select>
+  </div>
+  
+                     <div class="form-group">
+    <label for="exampleSelect1"> Kaç Çocuğunuz Var ?</label>
+    <select  name="cocuk" id="cocuk" class="form-control"  required="required">
+      <option value="1">Yok</option>
+      <option value="2">1-2</option>
+      <option value="3">3 ve yukarı</option>	  
+   </select>
+  </div>
+  
+  
+  <button onclick="hesapla();" class="btn btn-primary btn-lg" >Hesapla</button>
+</form>
+	
+	</center>
+	
+	
+
+	
+	
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

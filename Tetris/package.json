@@ -1,0 +1,32 @@
+{
+    "name": "io.yas",
+    "displayName": "yas",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "cordova-admob": "^4.2.1",
+        "cordova-android": "^7.1.4",
+        "cordova-browser": "^5.0.4",
+        "cordova-connectivity-monitor": "^1.2.2",
+        "cordova-play-services-version-adapter": "^1.0.1",
+        "cordova-plugin-network-information": "^2.0.1",
+        "cordova-plugin-whitelist": "1"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {},
+            "cordova-admob": {},
+            "cordova-plugin-network-information": {}
+        },
+        "platforms": [
+            "browser",
+            "android"
+        ]
+    }
+}

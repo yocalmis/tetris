@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>
+	<title></title>
+	<style>
+		html,body{
+			padding: 0;
+			margin: 0;
+			background-image: url(depositphotos_51313635-stock-photo-green-grass-texture.jpg);
+			background-repeat: repeat;
+
+		}
+		.media{
+			width: 100vw;
+			height: 100vh;
+			position: relative;
+			background-color: rgba(0,0,0,.34);
+			color: white;
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -ms-flex;
+			display: -o-flex;
+			display: flex;
+			-webkit-flex-direction: column;
+			-moz-flex-direction: column;
+			-ms-flex-direction: column;
+			-o-flex-direction: column;
+			flex-direction: column;
+			margin: 0 auto;
+		}
+		.top-bar{
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -ms-flex;
+			display: -o-flex;
+			display: flex;
+			justify-content: space-around;
+			
+			margin-bottom: 1rem;
+		}
+		.top-bar span{
+			display: inline-block;
+			font-weight: 500;
+			font-size: 2rem;
+
+		}
+		.top-bar span:first-child{
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			transform: translateX(-50%);
+			background-color: white;
+			color: black;
+			padding: 4px 6px;
+			margin-bottom:10%;
+		}
+		.inner{
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -ms-flex;
+			display: -o-flex;
+			display: flex;
+			justify-content: space-around;
+			margin-bottom: 1rem;
+		}
+		.inner p{
+			margin: .50rem 0;
+		}
+		.footer{
+			padding: 8px 0;
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -ms-flex;
+			display: -o-flex;
+			display: flex;
+			justify-content: space-around;
+		}
+		.footer .btn{
+			padding: 6px 12px;
+			text-decoration: none !important;
+			background: #ddd;
+		}
+	</style>
+	
+	
+	
+	
+	<script>
+
+ function yinele (){
+ location.reload();
+ }
+ 
+function hesapla (){
+/*  var url = window.location.href;
+
+alert(url);
+*/
+var new_url = "index.html";
+
+
+  window.location.href = new_url;
+
+
+}
+
+
+	 
+function param(name) {
+
+	var aa = (location.search.split(name + '=')[1] || '').split('&')[0];
+
+
+	
+	
+	for (var m=0; m<=5; m++)
+	{
+	 aa =  aa.replace("%C3%A7","ç").replace("%C4%9F","ğ").replace("%C4%B1","ı").replace("%C3%B6","ö").replace("%C5%9F","ş").
+	replace("%C3%BC","ü").replace("%C3%87","Ç").replace("%C4%9F","Ğ").replace("%C4%B0","İ").replace("%C3%96","Ö").replace("%C5%9E","Ş").
+	replace("%20"," ");
+	}
+	
+	
+	return aa;	
+	
+	
+
+	
+//	return (location.search.split(name + '=')[1] || '').split('&')[0];
+	
+
+}
+	 
+function nn(){
+
+
+	   
+  	  var url = window.location.href;
+	  var speed =param('speed'); if (speed==0){var hiz=50;} if (speed==1){var hiz=100;} if (speed==2){var hiz=1;}
+      var t1ad = param('t1ad');  
+      var t1kadro =param('t1kadro'); 	  t1kadro = parseInt(t1kadro)*4;	
+      var t1atak = param('t1atak'); 	  t1atak = parseInt(t1atak)*5;	  
+      var t1def = param('t1def'); 	  t1def = parseInt(t1def)*5;	  
+      var t1day = param('t1day'); 	  t1day = parseInt(t1day)*4;
+      var t1hiz = param('t1hiz'); 	  t1hiz = parseInt(t1hiz)*3;	  
+      var t1tek = param('t1tek'); 	  t1tek = parseInt(t1tek)*3;	  
+      var t1tak = param('t1tak'); 	  t1tak = parseInt(t1tak)*3;
+      var t1form = param('t1form'); 	  t1form = parseInt(t1form)*3;
+      var t1ant = param('t1ant'); 	  t1ant = parseInt(t1ant)*3;	  
+      var t1ic = param('t1ic'); 	  t1ic = parseInt(t1ic)*5;	  
+      var t1iddia = param('t1iddia'); 	  t1iddia = parseInt(t1iddia)*4;
+      var t1hava = param('t1hava'); 	  t1hava = parseInt(t1hava)*2.5;
+      var t1hak = param('t1hak'); 	  t1hak = parseInt(t1hak)*2.5;	  
+      var t1zem = param('t1zem'); 	  t1zem = parseInt(t1zem)*2.5;	  
+      var t1ek = param('t1ek'); 	  t1ek = parseInt(t1ek)*3;
+      var t1zorundalik = param('t1zorundalik'); 	  t1zorundalik = parseInt(t1zorundalik);
+
+	 
+      var t2ad = param('t2ad'); 
+      var t2kadro = param('t2kadro'); 	  t2kadro = parseInt(t2kadro)*4;	  
+      var t2atak = param('t2atak'); 	  t2atak = parseInt(t2atak)*5;	  
+      var t2def = param('t2def'); 	  t2def = parseInt(t2def)*5;	  
+      var t2day = param('t2day'); 	  t2day = parseInt(t2day)*4;
+      var t2hiz = param('t2hiz'); 	  t2hiz = parseInt(t2hiz)*3;	  
+      var t2tek = param('t2tek'); 	  t2tek = parseInt(t2tek)*3;	  
+      var t2tak = param('t2tak'); 	  t2tak = parseInt(t2tak)*3;
+      var t2form = param('t2form'); 	  t2form = parseInt(t2form)*3;
+      var t2ant = param('t2ant'); 	  t2ant = parseInt(t2ant)*3;	  
+      var t2ic = param('t2ic'); 	  t2ic = parseInt(t2ic)*5;	  
+      var t2iddia = param('t2iddia'); 	  t2iddia = parseInt(t2iddia)*4;
+      var t2hava = param('t2hava'); 	  t2hava = parseInt(t2hava)*2.5;
+      var t2hak = param('t2hak'); 	  t2hak = parseInt(t2hak)*2.5;	  
+      var t2zem = param('t2zem'); 	  t2zem = parseInt(t2zem)*2.5;	  
+      var t2ek = param('t2ek'); 	  t2ek = parseInt(t2ek)*3;
+      var t2zorundalik = param('t2zorundalik'); 	  t2zorundalik = parseInt(t2zorundalik);  
+	   
+	   
+	   
+       var t1 = {adi:t1ad, kadro:t1kadro, atak:t1atak, def:t1def, day:t1day, hiz:t1hiz, tek:t1tek, taktik:t1tak, form:t1form, antrenor:t1ant, ic:t1ic, iddia:t1iddia
+	   , hava:t1hava, hakem:t1hak, zemin:t1zem, ek_mot:t1ek, t1zor:t1zorundalik};
+	   
+	   
+       var t2 = {adi:t2ad, kadro:t2kadro, atak:t2atak, def:t2def, day:t2day, hiz:t2hiz, tek:t2tek, taktik:t2tak, form:t2form, antrenor:t2ant, ic:t2ic, iddia:t2iddia
+	   , hava:t2hava, hakem:t2hak, zemin:t2zem, ek_mot:t2ek, t2zor:t2zorundalik};	   
+	   
+
+	//  alert(t2ad); 
+	   
+	
+
+
+	// Total
+	t1["total_atak"]=t1["kadro"]+t1["atak"]+t1["day"]+t1["hiz"]+t1["tek"]+t1["taktik"]+t1["form"]
+	+t1["antrenor"]+t1["ic"]+t1["iddia"]+t1["hava"]+t1["hakem"]+t1["zemin"]+t1["ek_mot"];
+	
+	
+	t2["total_atak"]=t2["kadro"]+t2["atak"]+t2["day"]+t2["hiz"]+t2["tek"]+t2["taktik"]+t2["form"]
+	+t2["antrenor"]+t2["ic"]+t2["iddia"]+t2["hava"]+t2["hakem"]+t2["zemin"]+t2["ek_mot"];
+
+
+
+
+	t1["total_def"]=t1["kadro"]+t1["def"]+t1["day"]+t1["hiz"]+t1["tek"]+t1["taktik"]+t1["form"]
+	+t1["antrenor"]+t1["ic"]+t1["iddia"]+t1["hava"]+t1["hakem"]+t1["zemin"]+t1["ek_mot"];
+	t2["total_def"]=t2["kadro"]+t2["def"]+t2["day"]+t2["hiz"]+t2["tek"]+t2["taktik"]+t2["form"]
+	+t2["antrenor"]+t2["ic"]+t2["iddia"]+t2["hava"]+t2["hakem"]+t2["zemin"]+t2["ek_mot"];
+	
+
+	
+
+	
+	//Ortalama  totali / değişken adedi * 2 
+	t1["ort_atak"]=Math.round(t1["total_atak"]/14/3.50);
+	t2["ort_atak"]=Math.round(t2["total_atak"]/14/3.50);   
+	
+	//Ortalama  totali / değişken adedi * 2 
+	t1["ort_def"]=Math.round(t1["total_def"]/14/3.50);
+	t2["ort_def"]=Math.round(t2["total_def"]/14/3.50);		
+
+
+
+
+
+
+	var t1ad = t1["adi"];
+	var t2ad = t2["adi"];	
+	
+	//Kadrolar en savunmacıdan en golcü oyuncuya doğru yazılmalı
+	
+	t1kadro = ["Loris", "Hernandez", "Varane", "Umtiti", "Sol Bek", "Kante", "Tolisso", "Pogba", "Dembele", "Mbappe", "Griezzman"];
+	t2kadro = ["Jesus", "Danilo", "Miranda", "T. Silva", "Marcelo", "Casemiro", "Fernandinho", "Coutinho", "Neymar", "Willian", "Firmino"];
+		
+
+	var t1ort_atak = t1["ort_atak"];
+	var t1ort_def = t1["ort_def"];	
+	var t2ort_atak = t2["ort_atak"];	
+	var t2ort_def = t2["ort_def"];	
+	
+	var t1zor = t1["t1zor"];	
+	var t2zor = t2["t2zor"];	
+
+	t1ort_atak = parseInt(t1ort_atak);
+	t1ort_def = parseInt(t1ort_def);	
+	t2ort_atak = parseInt(t2ort_atak);	
+	t2ort_def = parseInt(t2ort_def);
+
+
+	var total_1_atak = t1ort_atak+t2ort_def;
+	var total_2_atak = t2ort_atak+t1ort_def;	
+	
+	/*
+					alert(t1ort_atak);		
+					alert(t1ort_def);		
+
+					alert(t2ort_atak);		
+					alert(t2ort_def);		
+					
+					alert(total_1_atak);		
+					alert(total_2_atak);	
+	*/
+
+	var kimde=Math.floor((Math.random() * 2) + 1);
+
+	
+	if(kimde==1){konum=80; var devre_2=2; devre_2_konum=81;}
+	if(kimde==2){konum=81; var devre_2=1; devre_2_konum=80;}	
+
+	var t1skor=0;
+	var t2skor=0;
+	var total=0;
+
+
+	var top_sahip="";
+	var anlatim="";
+
+	var t1golgirisim=0; t1golgirisim = parseInt(t1golgirisim); 	var t2golgirisim=0; t2golgirisim = parseInt(t2golgirisim);	
+	var t1sut=0; t1sut = parseInt(t1sut); 	var t2sut=0; t2sut = parseInt(t2sut);
+	var t1kbsut=0; t1kbsut = parseInt(t1kbsut); 	var t2kbsut=0; t2kbsut = parseInt(t2kbsut);	
+	var t1oynama=0; t1oynama = parseInt(t1oynama); 	var t2oynama=0; t2oynama = parseInt(t2oynama);
+	var t1sari=0; t1sari = parseInt(t1sari); 	var t2sari=0; t2sari = parseInt(t2sari);
+	var t1kirmizi=0; t1kirmizi = parseInt(t1kirmizi); 	var t2kirmizi=0; t2kirmizi = parseInt(t2kirmizi);	
+	var t1korner=0; t1korner = parseInt(t1korner); 	var t2korner=0; t2korner = parseInt(t2korner);	
+	var t1tac=0; t1tac = parseInt(t1tac); 	var t2tac=0; t2tac = parseInt(t2tac);		
+	var t1ofsayt=0; t1ofsayt = parseInt(t1ofsayt); 	var t2ofsayt=0; t2ofsayt = parseInt(t2ofsayt);		
+	var t1faul=0; t1faul = parseInt(t1faul); 	var t2faul=0; t2faul = parseInt(t2faul);	
+	var t1pas=0; t1pas = parseInt(t1pas); 	var t2pas=0; t2pas = parseInt(t2pas);
+
+
+
+
+	for (var i = 0; i <= 900; i++) {
+
+        setTimeout(function(i) {
+
+            return function() {
+				
+			/*******Devre Arası********/				
+				
+	if(i==451){	kimde=devre_2; konum=devre_2_konum;	}	
+
+			/*******Devre Arası********/			
+
+		/*******Zorundalık Hesaplama********/			
+	
+					var t1ort_atak_son =t1ort_atak;
+					var t2ort_def_son =t2ort_def;
+					var t2ort_atak_son =t2ort_atak;
+					var t1ort_def_son =t1ort_def;	
+	
+	if(i<=600){
+	
+	if(t1zor==2){
+		
+		if(t1skor<t2skor){ var t1ort_atak_son=t1ort_atak*1.04; var t1ort_def_son=t1ort_def*1; }	
+		if(t1skor>t2skor){ var t1ort_atak_son=t1ort_atak*1; var t1ort_def_son=t1ort_def*1.02; }		
+		
+	}			
+	if(t1zor==1){
+		
+	if(t1skor<=t2skor){ var t1ort_atak_son=t1ort_atak*1.04; var t1ort_def_son=t1ort_def*1; }	
+	else{ var t1ort_atak_son=t1ort_atak*1; var t1ort_def_son=t1ort_def*1.02; }	
+		
+	}					
+	if(t1zor==0){
+		
+		if(t1skor>=t2skor){ var t1ort_atak_son=t1ort_atak*1; var t1ort_def_son=t1ort_def*1.02; }	
+	else{ var t1ort_atak_son=t1ort_atak*1.04; var t1ort_def_son=t1ort_def*1; }	
+		
+		
+	}	
+
+
+
+	if(t2zor==2){
+		
+		if(t2skor<t1skor){ var t2ort_atak_son=t2ort_atak*1.04; var t2ort_def_son=t2ort_def*1; }	
+		if(t2skor>t1skor){ var t2ort_atak_son=t2ort_atak*1; var t2ort_def_son=t2ort_def*1.02; }		
+		
+	}			
+	if(t2zor==1){
+		
+	if(t2skor<=t1skor){ var t2ort_atak_son=t2ort_atak*1.04; var t2ort_def_son=t2ort_def*1; }	
+	else{ var t2ort_atak_son=t2ort_atak*1; var t2ort_def_son=t2ort_def*1.02; }	
+		
+	}					
+	if(t2zor==0){
+		
+		if(t2skor>=t1skor){ var t2ort_atak_son=t2ort_atak*1; var t2ort_def_son=t2ort_def*1.02; }	
+	else{ var t2ort_atak_son=t2ort_atak*1.04; var t2ort_def_son=t2ort_def*1; }	
+		
+		
+	}	
+
+}
+
+	else{
+	
+	if(t1zor==2){
+		
+		if(t1skor<t2skor){ var t1ort_atak_son=t1ort_atak*1.06; var t1ort_def_son=t1ort_def*1; }	
+		if(t1skor>t2skor){ var t1ort_atak_son=t1ort_atak*1; var t1ort_def_son=t1ort_def*1.03; }		
+		
+	}			
+	if(t1zor==1){
+		
+	if(t1skor<=t2skor){ var t1ort_atak_son=t1ort_atak*1.06; var t1ort_def_son=t1ort_def*1; }	
+	else{ var t1ort_atak_son=t1ort_atak*1; var t1ort_def_son=t1ort_def*1.03; }	
+		
+	}					
+	if(t1zor==0){
+		
+		if(t1skor>=t2skor){ var t1ort_atak_son=t1ort_atak*1; var t1ort_def_son=t1ort_def*1.03; }	
+	else{ var t1ort_atak_son=t1ort_atak*1.06; var t1ort_def_son=t1ort_def*1; }	
+		
+		
+	}	
+
+
+
+	if(t2zor==2){
+		
+		if(t2skor<t1skor){ var t2ort_atak_son=t2ort_atak*1.06; var t2ort_def_son=t2ort_def*1; }	
+		if(t2skor>t1skor){ var t2ort_atak_son=t2ort_atak*1; var t2ort_def_son=t2ort_def*1.03; }		
+		
+	}			
+	if(t2zor==1){
+		
+	if(t2skor<=t1skor){ var t2ort_atak_son=t2ort_atak*1.06; var t2ort_def_son=t2ort_def*1; }	
+	else{ var t2ort_atak_son=t2ort_atak*1; var t2ort_def_son=t2ort_def*1.03; }	
+		
+	}					
+	if(t2zor==0){
+		
+		if(t2skor>=t1skor){ var t2ort_atak_son=t2ort_atak*1; var t2ort_def_son=t2ort_def*1.03; }	
+	else{ var t2ort_atak_son=t2ort_atak*1.06; var t2ort_def_son=t2ort_def*1; }	
+		
+		
+	}	
+
+}
+
+
+/*
+					var t1ort_atak_son =t1ort_atak;
+					var t2ort_def_son =t2ort_def;
+					var t2ort_atak_son =t2ort_atak;
+					var t1ort_def_son =t1ort_def;	
+					
+					alert(t1ort_atak_son);
+					return false;
+*/
+
+
+
+
+		var total_1_atak_son=t1ort_atak_son+t2ort_def_son;
+		var total_2_atak_son=t2ort_atak_son+t1ort_def_son;	
+
+			
+				
+		/*******Zorundalık Hesaplama********/	
+
+		/*******Taç Hesaplama********/	
+		var tac_random=Math.floor((Math.random() * 50) + 1);
+		if(tac_random==45){
+		var tac_kimde=Math.floor((Math.random() * 2) + 1);
+		if(tac_kimde==1){ t1tac=t1tac+1; } else{t2tac=t2tac+1;}
+		
+		}
+
+		/*******Taç Hesaplama********/	
+		
+		/*******Faul Hesaplama********/	
+		
+		var fa_random=Math.floor((Math.random() * 35) + 1);
+		if(fa_random==35){
+			
+
+		
+		if(t1ort_def_son<t2ort_def_son){
+		var fa_kimde=Math.floor((Math.random() * 3) + 1);	
+		if(fa_kimde<=2){ t1faul=t1faul+1; } else{t2faul=t2faul+1;}			
+			
+		}
+				if(t1ort_def_son==t2ort_def_son){
+		var fa_kimde=Math.floor((Math.random() * 2) + 1);
+		if(fa_kimde==1){ t1faul=t1faul+1; } else{t2faul=t2faul+1;}		
+			
+		}
+		
+				if(t1ort_def_son>t2ort_def_son){
+		var fa_kimde=Math.floor((Math.random() * 3) + 1);	
+		if(fa_kimde==1){ t1faul=t1faul+1; } else{t2faul=t2faul+1;}			
+			
+		}
+
+		
+		}
+
+		/*******Faul Hesaplama********/
+		
+		
+		/*******Ofsayt Hesaplama********/	
+		
+		var fa_random=Math.floor((Math.random() * 115) + 1);
+		if(fa_random==115){
+			
+
+		
+		if(t1ort_def_son<t2ort_def_son){
+		var fa_kimde=Math.floor((Math.random() * 3) + 1);	
+		if(fa_kimde<=2){ t1ofsayt=t1ofsayt+1; } else{t2ofsayt=t2ofsayt+1;}			
+			
+		}
+				if(t1ort_def_son==t2ort_def_son){
+		var fa_kimde=Math.floor((Math.random() * 2) + 1);
+		if(fa_kimde==1){ t1ofsayt=t1ofsayt+1; } else{t2ofsayt=t2ofsayt+1;}		
+			
+		}
+		
+				if(t1ort_def_son>t2ort_def_son){
+		var fa_kimde=Math.floor((Math.random() * 3) + 1);	
+		if(fa_kimde==1){ t1ofsayt=t1ofsayt+1; } else{t2ofsayt=t2ofsayt+1;}			
+			
+		}
+
+		
+		}
+
+		/*******Ofsayt Hesaplama********/
+		
+				
+				
+				
+	/*******Anlatım********/			
+
+
+	
+	
+	if(kimde==1){top_sahip=t1ad;} if(kimde==2){top_sahip=t2ad;}	
+
+	/*******Topla Oynama********/	
+	var oynama_katsayi = Math.floor((Math.random() * 50) + 1);
+    if(kimde==1){t1oynama=t1oynama+oynama_katsayi;} if(kimde==2){t2oynama=t2oynama+oynama_katsayi;}
+	var total_oynama=t1oynama+t2oynama;
+	var t1oran=t1oynama/total_oynama; t1oran=t1oran*100;  var t2oran=100-t1oran; 
+	t1oran=Math.round(t1oran); 	t2oran=Math.round(t2oran);
+	
+	
+	/*******Topla Oynama********/	
+	
+	/*******Anlatım********/	
+
+	/**Oyucu Belirleme**/
+    var oyuncubelirlemesayisi=Math.floor((Math.random() * 100) + 0);
+    var oyuncuno="";
+	var oyuncu_kimde="";
+	if(kimde==1){
+	if(konum<=10){
+	if(oyuncubelirlemesayisi<=70){oyuncuno=Math.floor((Math.random() * 2) + 0);}	
+	if((oyuncubelirlemesayisi>70)&& (oyuncubelirlemesayisi<=90)){oyuncuno=Math.floor((Math.random() * 8) + 0);}		
+	if((oyuncubelirlemesayisi>90)&& (oyuncubelirlemesayisi<=100)){oyuncuno=Math.floor((Math.random() * 11) + 0);}			
+	}
+	if((konum>10) && (konum<=40)){
+		
+	if(oyuncubelirlemesayisi<=70){oyuncuno=Math.floor((Math.random() * 5) + 1);}	
+	if((oyuncubelirlemesayisi>70)&& (oyuncubelirlemesayisi<=90)){oyuncuno=Math.floor((Math.random() * 7) + 1);}		
+	if((oyuncubelirlemesayisi>90)&& (oyuncubelirlemesayisi<=100)){oyuncuno=Math.floor((Math.random() * 10) + 1);}				
+	
+	}	
+	if((konum>40) && (konum<=120)){
+		
+	if(oyuncubelirlemesayisi<=30){oyuncuno=Math.floor((Math.random() * 3) + 5);}	
+	if((oyuncubelirlemesayisi>30)&& (oyuncubelirlemesayisi<=100)){oyuncuno=Math.floor((Math.random() * 10) + 1);}	
+		
+	}
+	if(konum>120){
+		
+	if(oyuncubelirlemesayisi<=30){oyuncuno=Math.floor((Math.random() * 3) + 8);}	
+	if((oyuncubelirlemesayisi>30)&& (oyuncubelirlemesayisi<=60)){oyuncuno=Math.floor((Math.random() * 6) + 5);}
+	if((oyuncubelirlemesayisi>60)&& (oyuncubelirlemesayisi<=90)){oyuncuno=Math.floor((Math.random() * 8) + 3);}
+	if((oyuncubelirlemesayisi>90)&& (oyuncubelirlemesayisi<=100)){oyuncuno=Math.floor((Math.random() * 10) + 1);}
+	
+	}	
+	
+	oyuncu_kimde=t1kadro[oyuncuno];
+	
+	}
+	
+	if(kimde==2){
+
+	
+	
+	if(konum>=150){
+	if(oyuncubelirlemesayisi<=70){oyuncuno=Math.floor((Math.random() * 2) + 0);}	
+	if((oyuncubelirlemesayisi>70)&& (oyuncubelirlemesayisi<=90)){oyuncuno=Math.floor((Math.random() * 8) + 0);}		
+	if((oyuncubelirlemesayisi>90)&& (oyuncubelirlemesayisi<=100)){oyuncuno=Math.floor((Math.random() * 11) + 0);}			
+	}
+	if((konum<150) && (konum>=120)){
+		
+	if(oyuncubelirlemesayisi<=70){oyuncuno=Math.floor((Math.random() * 5) + 1);}	
+	if((oyuncubelirlemesayisi>70)&& (oyuncubelirlemesayisi<=90)){oyuncuno=Math.floor((Math.random() * 7) + 1);}		
+	if((oyuncubelirlemesayisi>90)&& (oyuncubelirlemesayisi<=100)){oyuncuno=Math.floor((Math.random() * 10) + 1);}				
+	
+	}	
+	if((konum<120) && (konum>=40)){
+		
+	if(oyuncubelirlemesayisi<=30){oyuncuno=Math.floor((Math.random() * 3) + 5);}	
+	if((oyuncubelirlemesayisi>30)&& (oyuncubelirlemesayisi<=100)){oyuncuno=Math.floor((Math.random() * 10) + 1);}	
+		
+	}
+	if(konum<40){
+		
+	if(oyuncubelirlemesayisi<=30){oyuncuno=Math.floor((Math.random() * 3) + 8);}	
+	if((oyuncubelirlemesayisi>30)&& (oyuncubelirlemesayisi<=60)){oyuncuno=Math.floor((Math.random() * 6) + 5);}
+	if((oyuncubelirlemesayisi>60)&& (oyuncubelirlemesayisi<=90)){oyuncuno=Math.floor((Math.random() * 8) + 3);}
+	if((oyuncubelirlemesayisi>90)&& (oyuncubelirlemesayisi<=100)){oyuncuno=Math.floor((Math.random() * 10) + 1);}
+	
+	}	
+	
+	oyuncu_kimde=t2kadro[oyuncuno];	
+	
+	
+	}	
+	/**Oyucu Belirleme**/	
+	
+/**/	
+
+	var base='index.html';
+	
+			var skor ='	'+t1ad+': '+t1skor+' ';
+			var skor2='	'+t2ad+': '+t2skor+'';
+
+			var left ='<p>Throw in : '+t1tac+'</p><p>Foul : '+t1faul+'</p><p>Offside : '+t1ofsayt+'</p><p>Corner : '+t1korner+'</p><p>Shoot : '+t1sut+'</p><p>On Target: '+t1kbsut+'</p>';
+			var right ='<p>Throw in : '+t2tac+'</p><p>Foul : '+t2faul+'</p><p>Offside : '+t2ofsayt+'</p><p>Corner : '+t2korner+'</p><p>Shoot : '+t2sut+'</p><p>On Target: '+t2kbsut+'</p>';
+
+			
+	/*
+	var yuzde = konum / 160 * 100;
+	anlatim+='<center><div class="progress" style="max-width:90%;"><div class="progress-bar" role="progressbar" style="width: '+yuzde+'%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="160"></div></div></center>';
+	*/
+	
+	
+	
+	
+	anlatim+="<!--Top:"+top_sahip+" takımından , "+oyuncu_kimde+" 'da Konum: "+konum+"<br>-->";
+	anlatim+="<font size='3' color='white'><b>Ball possesion:"+t1ad+":"+t1oran+" "+t2ad+":"+t2oran+"<br>";
+	anlatim+="Throw-in:"+t1ad+":"+t1tac+" "+t2ad+":"+t2tac+"<br>";			
+	anlatim+="Foul:"+t1ad+":"+t1faul+" "+t2ad+":"+t2faul+"<br>";	
+	anlatim+="Offside:"+t1ad+":"+t1ofsayt+" "+t2ad+":"+t2ofsayt+"<br>";	
+	anlatim+="Corner:"+t1ad+":"+t1korner+" "+t2ad+":"+t2korner+"<br>";	
+	anlatim+="Shoot:"+t1ad+":"+t1sut+" "+t2ad+":"+t2sut+"<br>";		
+	anlatim+="On target:"+t1ad+":"+t1kbsut+" "+t2ad+":"+t2kbsut+"<br></b></font>";		
+	//	anlatim=t1skor+t2skor;
+	
+	if(i%10 == 0){ document.getElementById("demo").innerHTML = ""+i/10+"'";	 }
+	document.getElementById("skor").innerHTML = skor;	
+	document.getElementById("skor2").innerHTML = skor2;	
+	document.getElementById("left").innerHTML = left;	
+	document.getElementById("right").innerHTML = right;		
+	//  document.getElementById("mac").innerHTML = i;
+	
+
+				   
+	/*******Anlatım********/
+	
+	
+	/*******Oyun Algoritması********/	
+	
+	
+				if(kimde==1){total=total_1_atak_son;}
+				if(kimde==2){total=total_2_atak_son;}	
+		
+
+				var rasgele=Math.floor((Math.random() * total) + 1);	
+				var ilerleme_katsayi=Math.floor((Math.random() * 5) + 19);
+		
+
+		/**/
+				if(t1skor==t2skor){	}
+				else if(t1skor>t2skor){
+
+				if(kimde==1){ilerleme_katsayi=Math.floor((Math.random() * 3) + 15);}
+				if(kimde==2){ilerleme_katsayi=Math.floor((Math.random() * 7) + 15);}	
+		
+	
+				}
+				//if($t1skor<$t2skor)
+				else{
+				//if(t1skor<t2skor){	alert(1); return false; }
+					if(kimde==1){ilerleme_katsayi=Math.floor((Math.random() * 7) + 15);}
+					if(kimde==2){ilerleme_katsayi=Math.floor((Math.random() * 3) + 15);}	
+	
+				}			
+				//else{}
+	
+
+				var ilerleme=Math.floor((Math.random() * ilerleme_katsayi) + 0);
+
+	
+				if(kimde==1){
+				if(rasgele>t1ort_atak_son) {kimde=2; 	 CONTİNUE;}
+				else{}   
+				}
+				else if(kimde==2){
+				if(rasgele>t2ort_atak_son) {kimde=1; 	 CONTINUE; }	
+				else{}       
+				}
+				else{}
+
+
+				konum = parseInt(konum);
+				ilerleme = parseInt(ilerleme);
+
+				if(kimde==1){konum=konum+ilerleme;}
+				if(kimde==2){konum=konum-ilerleme;}	
+	
+	
+				if(konum<=0){
+				
+				pozisyon=Math.floor((Math.random() * 8) + 0); 
+				if(pozisyon==0){kimde=Math.floor((Math.random() * 2) + 1);  konum=konum+40;  t2korner=t2korner+1; CONTINUE; }//defans uzaklaştırdı	
+				if(pozisyon==1){kimde=1; konum=0;  t2sut=t2sut+1; CONTINUE;}	//aut	
+				if(pozisyon==3){ konum=konum+20;  t2sut=t2sut+1; t2korner=t2korner+1;  CONTINUE;}	//korner	
+				if(pozisyon==4){ konum=0; kimde=1;  t2sut=t2sut+1;  t2kbsut=t2kbsut+1; CONTINUE;}	//kalecide kaldı
+				if(pozisyon==5){ konum=konum+20; kimde=Math.floor((Math.random() * 2) + 1);  t2sut=t2sut+1;  t2kbsut=t2kbsut+1;  t2korner=t2korner+1; CONTINUE;}	//kaleci çeldi	
+				if(pozisyon==6){ konum=konum+20; kimde=Math.floor((Math.random() * 2) + 1);  t2sut=t2sut+1;  t2kbsut=t2kbsut+1; CONTINUE;}	//direkten döndü	
+				if(pozisyon==7){ 
+	            t2sut=t2sut+1; t2kbsut=t2kbsut+1;
+				t2skor = parseInt(t2skor);
+				t2skor=t2skor+1;
+				kimde=1;
+				konum=80;
+			//	konum = parseInt(konum);				
+			//	CONTINUE;
+	
+	
+	
+				}	//gol
+	
+	
+		
+				}
+	
+	
+				if(konum>=160){
+					
+			
+				pozisyon=Math.floor((Math.random() * 8) + 0); 	
+				if(pozisyon==0){kimde=Math.floor((Math.random() * 2) + 1); konum=konum-40;  t1korner=t1korner+1;  CONTINUE; }//defans uzaklaştırdı	
+				if(pozisyon==1){kimde=2; konum=160; t1sut=t1sut+1; CONTINUE;}	//aut	
+				if(pozisyon==3){ konum=konum-20; t1sut=t1sut+1;   t1korner=t1korner+1; CONTINUE;}	//korner	
+				if(pozisyon==4){ $konum=160; kimde=2; t1sut=t1sut+1; t1kbsut=t1kbsut+1; CONTINUE;}	//Şut kaleci çıkardı yada direkten döndü
+				if(pozisyon==5){ konum=konum-20; kimde=Math.floor((Math.random() * 2) + 1); t1sut=t1sut+1; t1kbsut=t1kbsut+1;   t1korner=t1korner+1; CONTINUE;}	//Şut kaleci çeldi	
+				if(pozisyon==6){ konum=konum-20; kimde=Math.floor((Math.random() * 2) + 1); t1sut=t1sut+1; t1kbsut=t1kbsut+1; CONTINUE;}	//Şut direkten döndü		
+				if(pozisyon==7){ 
+			    t1sut=t1sut+1;	  t1kbsut=t1kbsut+1;
+				t1skor = parseInt(t1skor);	
+				t1skor=t1skor+1;
+				kimde=2;
+				konum=81;
+			//	konum = parseInt(konum);	
+			//	CONTINUE;
+	
+	
+	
+				}	//gol
+			
+
+
+		
+				}
+	
+	
+
+	
+
+            };
+
+        }(i), hiz*i);
+
+
+		
+    }
+	
+
+
+
+
+
+
+	
+	 
+	 
+	 
+	 
+	} 
+	 
+	
+/*	
+setInterval(function() {
+
+$("#donus").load('http://dusunsoft.com/sim');
+
+
+
+
+}, 1000000);
+
+*/
+
+
+
+        </script>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</head>
+<body  onload="nn();">
+
+ <!--	<p id="demo"></p>
+	<p id="mac"></p>
+	<p id="skor"></p>
+	<p id="anlatim"></p>
+	-->
+	
+	<div class="media">
+		<div class="top-bar">
+			<span id="demo"></span>
+			<span id="skor"></span>
+			<span id="skor2"></span>
+		</div>
+		<div class="inner">
+			<div id="left" class="left">
+				
+
+			</div>
+			<div id="right" class="right">
+			
+			</div>
+		</div>
+		<div class="footer">
+			<a href="#"  onclick='hesapla();' class="btn">Back</a>
+			<a href="#"  onclick='yinele();' class="btn">Again</a>
+		</div>
+	</div>
+	
+	
+		    <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="assets/js/index.js"></script>
+
+<script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+	
+	
+</body>
+</html>
